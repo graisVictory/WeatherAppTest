@@ -10,7 +10,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.InputStreamReader
 import javax.inject.Inject
-import kotlin.collections.ArrayList
 
 class CitiesApiImpl @Inject constructor(
     @ApplicationContext private val context: Context,

@@ -1,7 +1,5 @@
 package com.graisie.weatherapp.domain.weather.model
 
-import com.google.gson.annotations.SerializedName
-
 data class WeatherMainDataEntity(
     val temperature: Double,
     val feelsLike: Double,

@@ -3,8 +3,8 @@ package com.graisie.weatherapp.presentation.weather
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.graisie.weatherapp.domain.weather.repository.WeatherRepository
 import com.graisie.weatherapp.domain.usecase.UseCase
+import com.graisie.weatherapp.domain.weather.repository.WeatherRepository
 import com.graisie.weatherapp.presentation.cities.model.CityUiEntity
 import com.graisie.weatherapp.presentation.weather.model.CoordinatesUiEntity
 import com.graisie.weatherapp.presentation.weather.model.WeatherUiEntity

@@ -20,13 +20,13 @@ import com.graisie.weatherapp.data.weather.model.WindApiEntity
 import com.graisie.weatherapp.domain.cities.model.CityCoordinatesEntity
 import com.graisie.weatherapp.domain.cities.model.CityEntity
 import com.graisie.weatherapp.domain.cities.repository.CitiesRepository
-import com.graisie.weatherapp.domain.weather.repository.WeatherRepository
 import com.graisie.weatherapp.domain.usecase.FormatDoubleUseCase
 import com.graisie.weatherapp.domain.usecase.UseCase
 import com.graisie.weatherapp.domain.weather.model.WeatherDescriptionEntity
 import com.graisie.weatherapp.domain.weather.model.WeatherEntity
 import com.graisie.weatherapp.domain.weather.model.WeatherMainDataEntity
 import com.graisie.weatherapp.domain.weather.model.WindEntity
+import com.graisie.weatherapp.domain.weather.repository.WeatherRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
