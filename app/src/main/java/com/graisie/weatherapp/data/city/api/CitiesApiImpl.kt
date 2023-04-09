@@ -20,7 +20,6 @@ class CitiesApiImpl @Inject constructor(
     private var cached: List<CityApiEntity> = emptyList()
 
     override suspend fun getCities(searchQuery: String?): List<CityApiEntity> {
-        throw java.lang.IllegalArgumentException("smth")
         return cached.ifEmpty {
             withContext(Dispatchers.IO) {
                 context.resources.openRawResource(R.raw.city_list)
