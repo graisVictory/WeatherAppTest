@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="current_temp">Поточна температура: %s°C</string>
+    <string name="max_temp">Максимальна температура: %s°C</string>
+    <string name="min_temp">Мінімальна температура: %s°C</string>
+    <string name="humidity">Вологість: %s\%%</string>
+    <string name="wind_speed">Швидкість вітру: %s м/с</string>
+
+    <string name="error_msg">Упс, щось пішло не так…</string>
+</resources>
